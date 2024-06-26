@@ -1,6 +1,6 @@
 import React from "react";
-import Header from "../../components/UI/Header";
-import Footer from "../../components/UI/Footer";
+import Header from "@/components/ui/Header";
+import Footer from "@/components/ui/Footer";
 export default function HomeLayout({
   children,
 }: {

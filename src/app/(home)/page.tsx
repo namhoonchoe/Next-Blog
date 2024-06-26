@@ -1,4 +1,4 @@
-import PokemonCard from "../../components/UI/PokemonCard";
+import PokemonCard from "../../../components/ui/PokemonCard";
 import Link from "next/link";
 
 type PokemonResult = {
@@ -24,7 +24,7 @@ export default async function Home() {
 
   return (
     <main className="flex flex-col w-full max-w-[1128px] items-center justify-between gap-12 my-16">
-      <header className="w-full h-20 rounded-xl border"></header>
+     
       <section className="w-full max-w-full grid grid-cols-4 gap-6">
         {pokemons.results.map((pokemon: PokemonResult, index: number) => {
           return (
